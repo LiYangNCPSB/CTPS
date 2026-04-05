@@ -1,7 +1,7 @@
 # CTSS: Cell-type purification strategies
 ## 1.	Introduction to CTPS
 ### 1.1	Overview of CTPS
-The CTSS (Cell-Type-Specific Score) method is designed to identify master transcription factors (TFs) that are highly expressed and specific to different cell types in mouse lung data. This method combines both the fold change (FC) and Jensen-Shannon divergence (JSD) scores to select TFs with high and specific expression levels.
+The CTPS (Cell-Type-Purification Strategie) is designed to achieve high-purity cell sorting with minimal antibody reliance, by integrating flow cytometry data with single-cell transcriptomic data.. CTPS total contains four steps: pre-training, generation of training dataset, computational training and validation of fates.
 
 ![实验流程图](assets/CTPSworkflow.png)
 
