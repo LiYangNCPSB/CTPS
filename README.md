@@ -36,3 +36,8 @@ Users are required to prepare a data file formatted identically to the example f
 target_cell_type = "Artery Cell"
 ```
 Then, run the code and wait for a few minutes. The results will be generated and saved to the `Selected_feature.csv` file.
+
+### 2.3 Run CTPS to create gate
+`3-CTPS_gate_create/CTPS_gate_create.R` is used to create the sorting gates. Users also need to specify the target cell type here.  
+The gate will save in `gate_result.csv` file, 
+
