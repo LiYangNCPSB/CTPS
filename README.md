@@ -40,5 +40,5 @@ Then, run the code and wait for a few minutes. The results will be generated and
 ### 2.3 Run CTPS to create gate
 `3-CTPS_gate_create/CTPS_gate_create.R` is used to create the sorting gates. Users also need to specify the target cell type here.  
 The gate will save in `gate_result.csv` file, The visualized gating results are saved in the `gate_figure` folder like below:
-![gateing figure](3-CTPS_gate_create/gate_figure/1.pdf)
+![gateing figure](assets/gate_figure.png)
 
