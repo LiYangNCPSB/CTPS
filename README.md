@@ -29,3 +29,10 @@ ggplot (version ≥ 3.5.1)
 ### 2.1 Data preparation
 Users are required to prepare a data file formatted identically to the example file in the 1-CTPS_example_data directory, where the first column contains cell type annotations, and all subsequent columns hold the signal intensity values for each individual flow cytometry channel.
 
+### 2.2 Flow cytometry channel selection
+CTPS_feature_selection.R in 2-CTPS_feature_selection is used to select channels to purificate target cells. Users need to specify the target cell type for sorting.
+```
+#parameter settings
+target_cell_type = "Artery Cell"
+```
+Then, run the code and wait for a few minutes. The results will be generated and saved to the Selected_feature.csv file.
