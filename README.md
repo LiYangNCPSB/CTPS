@@ -25,3 +25,7 @@ e1071 (version ≥ 1.7.6)
 pROC (version ≥ 1.18.5)
 ggplot (version ≥ 3.5.1)
 ```
+## 2.	Main functions of CTPS
+### 2.1 Data preparation
+Users are required to prepare a data file formatted identically to the example file in the 1-CTPS_example_data directory, where the first column contains cell type annotations, and all subsequent columns hold the signal intensity values for each individual flow cytometry channel.
+
