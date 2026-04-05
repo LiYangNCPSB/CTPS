@@ -42,3 +42,5 @@ Then, run the code and wait for a few minutes. The results will be generated and
 The gate will save in `gate_result.csv` file, The visualized gating results are saved in the `gate_figure` folder like below:
 ![gateing figure](assets/gate_figure.png)
 
+### 2.4 Show different type cells in channels
+`4-CPTS_channel_show/CTPS_channel_show.R` is used to display scatter plots of distinct cell populations from the input data under two flow cytometry channels, thereby facilitating accurate cell sorting.
