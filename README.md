@@ -6,6 +6,7 @@ The CTPS (Cell-Type-Purification Strategie) is designed to achieve high-purity c
 ![实验流程图](assets/CTPSworkflow.png)
 
 ### 1.2 How to use CTPS
+```
 CTPS can be downloaded locally and used in R. Prior to use, the required dependent packages need to be installed.
 R (version ≥ 4.3.3)
 GA (version ≥ 3.2.4)
@@ -23,3 +24,4 @@ caret (version ≥ 7.0-1)
 e1071 (version ≥ 1.7.6)
 pROC (version ≥ 1.18.5)
 ggplot (version ≥ 3.5.1)
+```
